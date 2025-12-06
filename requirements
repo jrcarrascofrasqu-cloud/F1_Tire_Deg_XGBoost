@@ -1,6 +1,6 @@
-streamlit
-xgboost
-numpy
-pandas
-joblib
-scikit-learn  # For encoders/scaler
+streamlit==1.38.0  # Latest stable
+xgboost==2.1.1     # Match your notebook (check with !pip show xgboost in Databricks)
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2      # For loading .pkl
+scikit-learn==1.5.1  # For encoders/scaler
